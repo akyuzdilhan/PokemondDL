@@ -147,7 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PokemonDL.cpp" />
+    <ClCompile Include="eau.cpp" />
+    <ClCompile Include="feu.cpp" />
+    <ClCompile Include="foudre.cpp" />
+    <ClCompile Include="herbe.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pokemon.cpp" />
+    <ClCompile Include="terre.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="eau.h" />
+    <ClInclude Include="feu.h" />
+    <ClInclude Include="foudre.h" />
+    <ClInclude Include="herbe.h" />
+    <ClInclude Include="pokemon.h" />
+    <ClInclude Include="terre.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

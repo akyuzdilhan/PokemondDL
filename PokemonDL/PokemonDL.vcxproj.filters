@@ -13,10 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Element">
+      <UniqueIdentifier>{0f4646b6-f8a8-4f32-8607-6c8dab07a1ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Element">
+      <UniqueIdentifier>{44448ba4-2934-4ad0-abf3-7ca0a3334441}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PokemonDL.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="pokemon.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="eau.cpp">
+      <Filter>Fichiers sources\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="feu.cpp">
+      <Filter>Fichiers sources\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="foudre.cpp">
+      <Filter>Fichiers sources\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="herbe.cpp">
+      <Filter>Fichiers sources\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="terre.cpp">
+      <Filter>Fichiers sources\Element</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pokemon.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="terre.h">
+      <Filter>Fichiers d%27en-tête\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="foudre.h">
+      <Filter>Fichiers d%27en-tête\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="eau.h">
+      <Filter>Fichiers d%27en-tête\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="feu.h">
+      <Filter>Fichiers d%27en-tête\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="herbe.h">
+      <Filter>Fichiers d%27en-tête\Element</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

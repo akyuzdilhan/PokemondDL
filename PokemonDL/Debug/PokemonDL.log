@@ -1,0 +1,4 @@
+﻿  pokemon.cpp
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemonDL\pokemon.cpp(25,9): warning C4101: 'i' : variable locale non référencée
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemonDL\pokemon.cpp(73,25): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+  PokemonDL.vcxproj -> D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemonDL\Debug\PokemonDL.exe

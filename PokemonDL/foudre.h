@@ -3,6 +3,8 @@
 class CElectrique
 {
 public:
+
+	CElectrique();
 	bool paralyze();
 
 private:

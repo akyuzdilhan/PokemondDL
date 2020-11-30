@@ -4,7 +4,7 @@ class CGrass
 {
 public:
 
-
+	CGrass();
 private:
 
 };

@@ -3,10 +3,10 @@
 class CRock
 {
 public:
-	bool hide() {
 
-	}
+	CRock();
+	bool hide();
 
 private:
-	int m_hide; 
+	int m_hide;
 };

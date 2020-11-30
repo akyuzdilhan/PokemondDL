@@ -3,6 +3,8 @@
 class CWater
 {
 public:
+
+	CWater();
 	bool flood(); // indique si le terrain est inondé ou non suite à l’attaque
 
 private:

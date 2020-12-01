@@ -1,0 +1,2 @@
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\x64\Debug\PokemonDL.exe
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\x64\Debug\PokemonDL.pdb

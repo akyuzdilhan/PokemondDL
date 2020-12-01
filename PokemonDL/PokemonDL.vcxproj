@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dresseur.cpp" />
     <ClCompile Include="eau.cpp" />
     <ClCompile Include="feu.cpp" />
     <ClCompile Include="foudre.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="terre.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="dresseur.h" />
     <ClInclude Include="eau.h" />
     <ClInclude Include="feu.h" />
     <ClInclude Include="foudre.h" />

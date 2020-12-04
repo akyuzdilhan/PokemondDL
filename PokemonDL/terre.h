@@ -1,11 +1,10 @@
 #pragma once
+#include "pokemon.h"
 
-class CRock
+class CRock : public CPokemon
 {
 public:
-	bool hide() {
-
-	}
+	bool hide();
 
 private:
 	int m_hide; 

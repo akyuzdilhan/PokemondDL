@@ -1,7 +1,19 @@
 #include "pokemon.h"
 
 using namespace std;
-
+/*
+CPokemon::CPokemon()
+{
+    m_nom = "Carapuce";
+    m_etat = "Aucun";
+    m_vie = 100;
+    m_vitesse = ; 
+    m_attaque;
+    m_defense;
+    m_degat; 
+    m_coeff;
+}
+*/
 void CPokemon::recevoirDegats(int nbDegats)
 {
     m_vie -= nbDegats;

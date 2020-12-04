@@ -1,0 +1,11 @@
+﻿  eau.cpp
+  feu.cpp
+  foudre.cpp
+  herbe.cpp
+  main.cpp
+  pokemon.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.cpp(18,50): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  terre.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(5,20): error C2084: la fonction 'bool CRock::hide(void)' a déjà un corps
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.h(6): message : voir la définition précédente de 'hide'
+  Génération de code en cours...

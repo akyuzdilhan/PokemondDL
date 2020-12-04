@@ -1,6 +1,7 @@
 #pragma once
+#include "pokemon.h"
 
-class CElectrique
+class CElectrique : public CPokemon
 {
 public:
 	bool paralyze();

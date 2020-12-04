@@ -1,6 +1,7 @@
 #pragma once
+#include "pokemon.h"
 
-class CWater
+class CWater : public CPokemon
 {
 public:
 	bool flood(); // indique si le terrain est inondé ou non suite à l’attaque

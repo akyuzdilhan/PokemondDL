@@ -12,29 +12,6 @@
 #define FILE_OBJECTS "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\objects.pkmn"
 
 using namespace std;
-<<<<<<< HEAD
-/*
-CPokemon::CPokemon()
-{
-    m_nom = "Carapuce";
-    m_etat = "Aucun";
-    m_vie = 100;
-    m_vitesse = ; 
-    m_attaque;
-    m_defense;
-    m_degat; 
-    m_coeff;
-}
-*/
-void CPokemon::recevoirDegats(int nbDegats)
-{
-    m_vie -= nbDegats;
-    //On enlève le nombre de dégâts reçus à la vie du personnage
-=======
-
->>>>>>> 96af9e4798e309ac09fd2709f0c84fda14d159fd
-
-
 
 string CPokemon::monstre() {
     ifstream monstres(FILE_MONSTERS, ios::in);
@@ -76,7 +53,18 @@ string CPokemon::monstre() {
 
 CPokemon::CPokemon()
 {
+    /*
+    m_nom = "Carapuce";
+    m_etat = "Aucun";
+    m_vie = 100;
+    m_vitesse = ;
+    m_attaque;
+    m_defense;
+    m_degat;
+    m_coeff
+    */
 }
+
 
 void CPokemon::recevoirDegats(int nbDegats) {
 	m_vie -= nbDegats;

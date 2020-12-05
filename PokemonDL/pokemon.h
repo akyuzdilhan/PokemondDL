@@ -23,12 +23,13 @@ private:
     int m_speedMax;
     int m_attaque;
     int m_defense;
-<<<<<<< HEAD
+
+
     int m_degat; // je suis pas sur de celui là
     float m_coeff; // je suis pas sur de celui là aussi
     // avantage ici ?
 }; 
-=======
+
     float m_degat; // je suis pas sur de celui là
     float m_coeff; // je suis pas sur de celui là aussi
 
@@ -43,6 +44,4 @@ private:
         FOUDRE,
         NB_TYPE
     };
-};
-#endif
->>>>>>> 96af9e4798e309ac09fd2709f0c84fda14d159fd
+//};

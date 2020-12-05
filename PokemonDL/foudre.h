@@ -4,6 +4,8 @@
 class CElectrique : public CPokemon
 {
 public:
+
+	CElectrique();
 	bool paralyze();
 
 private:

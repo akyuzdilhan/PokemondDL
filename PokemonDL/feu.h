@@ -4,6 +4,8 @@
 class CFire : public CPokemon
 {
 public:
+
+	CFire();
 	bool burn();
 
 private:

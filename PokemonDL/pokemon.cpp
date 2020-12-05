@@ -56,8 +56,8 @@ CPokemon::CPokemon()
     /*
     m_nom = "Carapuce";
     m_etat = "Aucun";
-    m_vie = 100;
-    m_vitesse = ;
+    m_vie = genereVie(int m_vieMin, int m_vieMax);
+    m_vitesse = genereVitesse(int m_vitesseMin, int m_vitesseMax);
     m_attaque;
     m_defense;
     m_degat;
@@ -81,4 +81,8 @@ void CPokemon::attaquer(CPokemon& monster) {
 
 bool CPokemon::estVivant() {
 	return m_vie > 0;
+}
+
+int CPokemon::genereVie(int min, int max) {
+    return rand() % (max - min) + min;
 }

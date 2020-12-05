@@ -4,7 +4,6 @@
 class CRock : public CPokemon
 {
 public:
-
 	// CRock();
 	bool hide();
 

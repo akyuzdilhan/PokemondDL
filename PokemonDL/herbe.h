@@ -12,6 +12,7 @@ private:
 
 };
 
+// nv 
 class CPlant : public CGrass
 {
 public :

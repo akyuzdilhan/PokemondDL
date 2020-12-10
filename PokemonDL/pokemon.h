@@ -10,12 +10,12 @@ public:
     CPokemon();
     void recevoirDegats(int nbDegats);
     void attaquer(CPokemon& cible);
-    std::string monstre();
+    void statsMonster();
     bool estVivant();
     
 private:
 
-    std::string m_nom;
+    std::string m_nom[18];
     std::string m_etat; //un seul etat possible
     int m_vie;
     int m_vitesse;

@@ -1,10 +1,10 @@
 #pragma once
 
-class CElectrique
+class CElectric
 {
 public:
 
-	CElectrique();
+	CElectric();
 	bool paralyze();
 
 private:

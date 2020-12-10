@@ -6,7 +6,6 @@
 #include <stdlib.h>
 #include <regex>
 #include <string>
-#include <vector>
 #define FILE_MONSTERS "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\monsters.pkmn"
 #define FILE_ATTACK "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\attacks.pkmn"
 #define FILE_OBJECTS "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\objects.pkmn"
@@ -16,14 +15,16 @@ using namespace std;
 
 
 
-string CPokemon::monstre() {
+void CPokemon::statsMonster() {
     ifstream monstres(FILE_MONSTERS, ios::in);
     string ligne;
     string namePokemon = "vide";
     string typePokemon, hp, speed, attack, defense;
+    string statLine;
 
     while (!monstres.eof()) {
-        getline(monstres, ligne);
+        //for (int i = 0; i < 18; i++) {
+            getline(monstres, ligne);
             if (ligne != "") {
                 if (regex_match(ligne.substr(1), regex("Name.*"))) {
                     namePokemon = ligne.substr(7);
@@ -49,13 +50,14 @@ string CPokemon::monstre() {
                     defense = ligne.substr(10);
                     cout << defense << endl;
                 }
+                //cout << m_nom[i] << endl;
             }
+        
     }
-    return namePokemon;
 }
 
-CPokemon::CPokemon()
-{
+/*CPokemon::CPokemon() {
+
 }
 
 void CPokemon::recevoirDegats(int nbDegats) {
@@ -73,4 +75,4 @@ void CPokemon::attaquer(CPokemon& monster) {
 
 bool CPokemon::estVivant() {
 	return m_vie > 0;
-}
+}*/

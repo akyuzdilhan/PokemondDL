@@ -2,6 +2,6 @@
 
 using namespace std;
 
-bool CElectrique::paralyze() {
+bool CElectric::paralyze() {
 	return m_paralysis > 0;
 }

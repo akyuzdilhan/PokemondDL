@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a7c7da72-8b29-4589-a832-8619ea03e98c}</ProjectGuid>
+    <ProjectGuid>{EC3B970A-893E-4A42-AF19-6340931666D7}</ProjectGuid>
     <RootNamespace>PokemonDL</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

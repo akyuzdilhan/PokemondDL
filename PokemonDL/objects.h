@@ -3,11 +3,8 @@
 class CObjects
 {
 public:
-
 	CObjects();
 	void boirePotion();
-
-
 
 private:
 	int nb_regen;

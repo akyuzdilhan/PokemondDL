@@ -12,9 +12,6 @@
 
 using namespace std;
 
-
-
-
 void CPokemon::statsMonster() {
     ifstream monstres(FILE_MONSTERS, ios::in);
     string ligne;
@@ -23,7 +20,6 @@ void CPokemon::statsMonster() {
     string statLine;
 
     while (!monstres.eof()) {
-        //for (int i = 0; i < 18; i++) {
             getline(monstres, ligne);
             if (ligne != "") {
                 if (regex_match(ligne.substr(1), regex("Name.*"))) {
@@ -57,8 +53,22 @@ void CPokemon::statsMonster() {
 }
 
 /*CPokemon::CPokemon() {
-
 }
+=======
+CPokemon::CPokemon()
+{
+    /*
+    m_nom = "Carapuce";
+    m_etat = "Aucun";
+    m_vie = genereVie(int m_vieMin, int m_vieMax);
+    m_vitesse = genereVitesse(int m_vitesseMin, int m_vitesseMax);
+    m_attaque;
+    m_defense;
+    m_degat;
+    m_coeff
+
+}*/
+
 
 void CPokemon::recevoirDegats(int nbDegats) {
 	m_vie -= nbDegats;
@@ -75,4 +85,8 @@ void CPokemon::attaquer(CPokemon& monster) {
 
 bool CPokemon::estVivant() {
 	return m_vie > 0;
-}*/
+}
+
+int CPokemon::genereVie(int min, int max) {
+    return rand() % (max - min) + min;
+}

@@ -1,6 +1,7 @@
 #pragma once
+#include "pokemon.h"
 
-class CWater
+class CWater : public CPokemon
 {
 public:
 

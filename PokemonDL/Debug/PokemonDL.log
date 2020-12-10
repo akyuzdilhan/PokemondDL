@@ -1,4 +1,18 @@
+<<<<<<< HEAD
+﻿  eau.cpp
+  feu.cpp
+  foudre.cpp
+  herbe.cpp
+  main.cpp
+  pokemon.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.cpp(18,50): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  terre.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(5,20): error C2084: la fonction 'bool CRock::hide(void)' a déjà un corps
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.h(6): message : voir la définition précédente de 'hide'
+  Génération de code en cours...
+=======
 ﻿  pokemon.cpp
 D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemonDL\pokemon.cpp(25,9): warning C4101: 'i' : variable locale non référencée
 D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemonDL\pokemon.cpp(73,25): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
   PokemonDL.vcxproj -> D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemonDL\Debug\PokemonDL.exe
+>>>>>>> 96af9e4798e309ac09fd2709f0c84fda14d159fd

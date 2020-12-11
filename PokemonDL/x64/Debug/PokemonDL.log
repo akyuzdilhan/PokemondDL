@@ -1,3 +1,2 @@
-﻿  main.cpp
-main.obj : error LNK2019: symbole externe non résolu "public: __cdecl CPokemon::CPokemon(void)" (??0CPokemon@@QEAA@XZ) référencé dans la fonction main
-D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\x64\Debug\PokemonDL.exe : fatal error LNK1120: 1 externes non résolus
+﻿  dresseur.cpp
+  PokemonDL.vcxproj -> D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\x64\Debug\PokemonDL.exe

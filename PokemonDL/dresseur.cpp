@@ -7,6 +7,10 @@
 
 using namespace std;
 
+CPlayer::CPlayer() {
+
+}
+
 void CPlayer::readAttack() {
         ifstream attacks(FILE_ATTACK, ios::in);
         string ligne;
@@ -20,22 +24,23 @@ void CPlayer::readAttack() {
                 nameAttack = ligne.substr(6);
                 cout << nameAttack << endl;
             }
-            /*else if (regex_match(ligne.substr(1), regex("Type.*"))) {
-                typeAttack = ligne.substr(7);
+            else if (regex_match(ligne.substr(1), regex("Type.*"))) {
+                typeAttack = ligne.substr(6);
                 cout << typeAttack << endl;
             }
-            else if (regex_match(ligne.substr(1), regex("HP.*"))) {
-                power = ligne.substr(6);
+            else if (regex_match(ligne.substr(1), regex("Power.*"))) {
+                power = ligne.substr(7);
                 cout << power << endl;
             }
-            else if (regex_match(ligne.substr(1), regex("Speed.*"))) {
-                nbUse = ligne.substr(8);
+            else if (regex_match(ligne.substr(1), regex("NbUse.*"))) {
+                nbUse = ligne.substr(7);
                 cout << nbUse << endl;
             }
-            else if (regex_match(ligne.substr(1), regex("Attack.*"))) {
-                fail = ligne.substr(9);
+            else if (regex_match(ligne.substr(1), regex("Fail.*"))) {
+                fail = ligne.substr(6);
                 cout << fail << endl;
-            }*/
+                cout << "" << endl;
+            }
         }
     }
 }

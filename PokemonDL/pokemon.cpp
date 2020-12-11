@@ -52,12 +52,11 @@ void CPokemon::statsMonster() {
     }
 }
 
-/*CPokemon::CPokemon() {
+CPokemon::CPokemon() {
 }
-=======
-CPokemon::CPokemon()
+
+/*CPokemon::CPokemon()
 {
-    /*
     m_nom = "Carapuce";
     m_etat = "Aucun";
     m_vie = genereVie(int m_vieMin, int m_vieMax);
@@ -67,7 +66,7 @@ CPokemon::CPokemon()
     m_degat;
     m_coeff
 
-}*/
+}
 
 
 void CPokemon::recevoirDegats(int nbDegats) {
@@ -89,4 +88,4 @@ bool CPokemon::estVivant() {
 
 int CPokemon::genereVie(int min, int max) {
     return rand() % (max - min) + min;
-}
+}*/

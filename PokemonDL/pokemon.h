@@ -29,10 +29,7 @@ private:
     int m_degat; // je suis pas sur de celui là
     float m_coeff; // je suis pas sur de celui là aussi
     // avantage ici ?
-}; 
-
-    float m_degat; // je suis pas sur de celui là
-    float m_coeff; // je suis pas sur de celui là aussi
+};
 
     enum class eType // mettre dans un fichier à part pour rassebler tout mes enum
     {

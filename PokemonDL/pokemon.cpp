@@ -17,6 +17,10 @@
 
 using namespace std;
 
+CPokemon::CPokemon() {
+
+}
+
 void CPokemon::statsMonster() {
     ifstream monstres(FILE_MONSTERS, ios::in);
     string ligne;
@@ -51,12 +55,8 @@ void CPokemon::statsMonster() {
                     defense = ligne.substr(10);
                     cout << defense << endl;
                 }
-                //cout << m_nom[i] << endl;
             }
     }
-}
-
-CPokemon::CPokemon() {
 }
 
 /*CPokemon::CPokemon()
@@ -71,7 +71,6 @@ CPokemon::CPokemon() {
     m_coeff
 
 }
-
 
 void CPokemon::recevoirDegats(int nbDegats) {
 	m_vie -= nbDegats;

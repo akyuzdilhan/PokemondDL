@@ -144,8 +144,10 @@
     <ClCompile Include="feu.cpp" />
     <ClCompile Include="foudre.cpp" />
     <ClCompile Include="herbe.cpp" />
+    <ClCompile Include="insecte.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="objects.cpp" />
+    <ClCompile Include="plante.cpp" />
     <ClCompile Include="pokemon.cpp" />
     <ClCompile Include="terre.cpp" />
   </ItemGroup>
@@ -155,7 +157,9 @@
     <ClInclude Include="feu.h" />
     <ClInclude Include="foudre.h" />
     <ClInclude Include="herbe.h" />
+    <ClInclude Include="insecte.h" />
     <ClInclude Include="objects.h" />
+    <ClInclude Include="plante.h" />
     <ClInclude Include="pokemon.h" />
     <ClInclude Include="terre.h" />
   </ItemGroup>

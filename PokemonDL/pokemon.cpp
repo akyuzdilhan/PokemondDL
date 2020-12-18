@@ -6,9 +6,14 @@
 #include <stdlib.h>
 #include <regex>
 #include <string>
+/*
 #define FILE_MONSTERS "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\monsters.pkmn"
 #define FILE_ATTACK "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\attacks.pkmn"
 #define FILE_OBJECTS "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\objects.pkmn"
+*/
+#define FILE_MONSTERS "C:\\Users\\dilha\\Documents\\ESIEA\\POO\\PokemonDL\\PokemonDL\\Donnees\\monsters.pkmn"
+#define FILE_ATTACK "C:\\Users\\dilha\\Documents\\ESIEA\\POO\\PokemonDL\\PokemonDL\\Donnees\\attacks.pkmn"
+#define FILE_OBJECTS "C:\\Users\\dilha\\Documents\\ESIEA\\POO\\PokemonDL\\PokemonDL\\Donnees\\objects.pkmn"
 
 using namespace std;
 
@@ -48,7 +53,6 @@ void CPokemon::statsMonster() {
                 }
                 //cout << m_nom[i] << endl;
             }
-        
     }
 }
 

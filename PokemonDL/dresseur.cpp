@@ -3,7 +3,8 @@
 #include <iostream>
 #include <regex>
 #include <string>
-#define FILE_ATTACK "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\attacks.pkmn"
+// #define FILE_ATTACK "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\attacks.pkmn"
+#define FILE_ATTACK "C:\\Users\\dilha\\Documents\\ESIEA\\POO\\PokemonDL\\PokemonDL\\Donnees\\attacks.pkmn"
 
 using namespace std;
 

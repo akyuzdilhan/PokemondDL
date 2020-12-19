@@ -1,3 +1,0 @@
-﻿  foudre.cpp
-D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\foudre.cpp(11,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
-  PokemonDL.vcxproj -> D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\x64\Debug\PokemonDL.exe

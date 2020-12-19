@@ -4,8 +4,11 @@
 // nv 
 class CPlant : public CGrass
 {
-public:
-	// j'ai pas compris
 private:
-	// j'ai pas compris
+	float m_guerrir;
+
+public:
+	float getGuerrir();
+
+	void setGuerrir(float guerrir);
 };

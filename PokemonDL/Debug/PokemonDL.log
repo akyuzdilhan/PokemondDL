@@ -1,2 +1,80 @@
-﻿  main.cpp
-LINK : fatal error LNK1209: base de données 'C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\Debug\PokemonDL.pdb' du programme différente de l'édition de liens précédentes ; reconstruisez ou régénérez
+﻿  eau.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,10): error C2039: 'vector' : n'est pas membre de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : voir la déclaration de 'std'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,42): error C2238: jetons inattendus avant ';'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\eau.cpp(15,12): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\eau.cpp(19,12): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\eau.cpp(23,15): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\eau.cpp(26,14): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  feu.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,10): error C2039: 'vector' : n'est pas membre de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : voir la déclaration de 'std'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,42): error C2238: jetons inattendus avant ';'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\feu.cpp(15,14): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  foudre.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,10): error C2039: 'vector' : n'est pas membre de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : voir la déclaration de 'std'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,42): error C2238: jetons inattendus avant ';'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\foudre.cpp(7,24): error C2248: 'CPokemon::CPokemon' : impossible d'accéder à private membre déclaré(e) dans la classe 'CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(19): message : voir la déclaration de 'CPokemon::CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(5): message : voir la déclaration de 'CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\foudre.cpp(11,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\foudre.cpp(28,19): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  herbe.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,10): error C2039: 'vector' : n'est pas membre de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : voir la déclaration de 'std'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,42): error C2238: jetons inattendus avant ';'
+  insecte.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,10): error C2039: 'vector' : n'est pas membre de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : voir la déclaration de 'std'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,42): error C2238: jetons inattendus avant ';'
+  main.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\main.cpp(16,19): error C2248: 'CPokemon::CPokemon' : impossible d'accéder à private membre déclaré(e) dans la classe 'CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(19): message : voir la déclaration de 'CPokemon::CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(5): message : voir la déclaration de 'CPokemon'
+  objects.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\objects.cpp(11,7): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\objects.cpp(11,7): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\objects.cpp(14,1): error C2059: erreur de syntaxe : 'while'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\objects.cpp(15,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\objects.cpp(15,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\objects.cpp(79,1): error C2059: erreur de syntaxe : '}'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\objects.cpp(79,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\objects.cpp(81,20): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\objects.cpp(81,20): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+  plante.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,10): error C2039: 'vector' : n'est pas membre de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : voir la déclaration de 'std'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,42): error C2238: jetons inattendus avant ';'
+  pokemon.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,10): error C2039: 'vector' : n'est pas membre de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : voir la déclaration de 'std'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,42): error C2238: jetons inattendus avant ';'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.cpp(19,29): error C2039: 'statsMonster' : n'est pas membre de 'CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(5): message : voir la déclaration de 'CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.cpp(72,43): error C2248: 'CPokemon::CPokemon' : impossible d'accéder à private membre déclaré(e) dans la classe 'CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(19): message : voir la déclaration de 'CPokemon::CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(5): message : voir la déclaration de 'CPokemon'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.cpp(133,49): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  terre.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,10): error C2039: 'vector' : n'est pas membre de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\string(24): message : voir la déclaration de 'std'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,16): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.h(27,42): error C2238: jetons inattendus avant ';'
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(15,14): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  Génération de code en cours...

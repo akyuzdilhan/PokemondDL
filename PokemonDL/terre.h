@@ -3,10 +3,14 @@
 
 class CRock : public CPokemon
 {
+private:
+	int m_hide;
+
 public:
 	// CRock();
 	bool hide();
 
-private:
-	int m_hide;
+	int getHide();
+
+	void setHide(float m_hide);
 };

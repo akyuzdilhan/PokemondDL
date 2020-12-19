@@ -81,4 +81,15 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Donnees\attacks.pkmn">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="Donnees\monsters.pkmn">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="Donnees\objects.pkmn">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+  </ItemGroup>
 </Project>

@@ -3,11 +3,17 @@
 
 class CElectric : public CPokemon
 {
+private:
+	int m_paralysis;
+
+
 public:
 
 	CElectric();
 	bool paralyze();
 
-private:
-	int m_paralysis;
+	int getParalysis();
+
+	void setParalysis(float paralysis);
+
 };

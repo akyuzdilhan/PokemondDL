@@ -18,3 +18,12 @@ bool CElectric::paralyze() {
     }
 	return m_paralysis > 0;
 }
+
+int CElectric::getParalysis()
+{
+    return m_paralysis;
+}
+
+void CElectric::setParalysis(float paralysis) {
+    m_paralysis = paralysis;
+}

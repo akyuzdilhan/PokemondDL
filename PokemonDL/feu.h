@@ -3,11 +3,14 @@
 
 class CFire : public CPokemon
 {
-public:
+private:
+	int m_burn;
 
+public:
 	CFire();
 	bool burn();
 
-private:
-	int m_burn;
+	int getBurn();
+
+	void setBurn(float burn);
 };

@@ -163,6 +163,11 @@
     <ClInclude Include="pokemon.h" />
     <ClInclude Include="terre.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Donnees\attacks.pkmn" />
+    <None Include="Donnees\monsters.pkmn" />
+    <None Include="Donnees\objects.pkmn" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

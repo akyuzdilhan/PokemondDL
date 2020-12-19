@@ -1,4 +1,3 @@
-#include "pokemon.h"
 #include <fstream>
 #include <iostream>
 #include <time.h>
@@ -8,6 +7,7 @@
 #include <string>
 #include <sstream>
 
+#include "pokemon.h"
 #include "foudre.h"
 #include "eau.h"
 #include "feu.h"

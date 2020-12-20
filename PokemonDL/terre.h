@@ -8,7 +8,7 @@ private:
 
 public:
 	CRock();
-	std::vector<CRock*> statsMonster();
+	//std::vector<CRock*> statsMonster();
 	bool hide();
 
 	float getHide();

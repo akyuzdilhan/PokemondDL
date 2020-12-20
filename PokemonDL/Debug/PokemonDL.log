@@ -1,36 +1,8 @@
-﻿  eau.cpp
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\eau.cpp(15,12): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\eau.cpp(19,12): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\eau.cpp(23,15): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\eau.cpp(26,14): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
-  feu.cpp
-  foudre.cpp
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\foudre.cpp(12,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\foudre.cpp(13,44): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  herbe.cpp
-  insecte.cpp
-  main.cpp
-  plante.cpp
-  pokemon.cpp
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.cpp(145,49): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+﻿  pokemon.cpp
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.cpp(143,49): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
   terre.cpp
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.cpp(145,49): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,82): warning C4101: 'attack' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,27): warning C4101: 'hpmaxfichier' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,135): warning C4101: 'defenseminfichier' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,154): warning C4101: 'defensemaxfichier' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,108): warning C4101: 'attackmaxfichier' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,65): warning C4101: 'speedmaxfichier' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,48): warning C4101: 'speedminfichier' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,9): warning C4101: 'hp' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(10,42): warning C4101: 'specialiteFichier2' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,90): warning C4101: 'attackminfichier' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(10,62): warning C4101: 'specialite2' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,13): warning C4101: 'hpminfichier' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,126): warning C4101: 'defense' : variable locale non référencée
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(11,41): warning C4101: 'speed' : variable locale non référencée
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\pokemon.cpp(143,49): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
   Génération de code en cours...
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\PokemonDL\terre.cpp(32): warning C4717: 'CRock::statsMonster' : récurrent sur tous les chemins d'accès de contrôle, la fonction entraînera un dépassement de capacité de la pile d'exécution
 terre.obj : error LNK2005: "public: __thiscall CPokemon::CPokemon(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,int,int)" (??0CPokemon@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0HHHH@Z) déjà défini(e) dans pokemon.obj
 terre.obj : error LNK2005: "public: __thiscall CPokemon::CPokemon(void)" (??0CPokemon@@QAE@XZ) déjà défini(e) dans pokemon.obj
 terre.obj : error LNK2005: "public: virtual __thiscall CPokemon::~CPokemon(void)" (??1CPokemon@@UAE@XZ) déjà défini(e) dans pokemon.obj
@@ -50,5 +22,4 @@ terre.obj : error LNK2005: "public: void __thiscall CPokemon::setType(class std:
 terre.obj : error LNK2005: "public: void __thiscall CPokemon::setVie(int)" (?setVie@CPokemon@@QAEXH@Z) déjà défini(e) dans pokemon.obj
 terre.obj : error LNK2005: "public: void __thiscall CPokemon::setVitesse(int)" (?setVitesse@CPokemon@@QAEXH@Z) déjà défini(e) dans pokemon.obj
 terre.obj : error LNK2005: "public: class std::vector<class CPokemon *,class std::allocator<class CPokemon *> > __thiscall CPokemon::statsMonster(void)" (?statsMonster@CPokemon@@QAE?AV?$vector@PAVCPokemon@@V?$allocator@PAVCPokemon@@@std@@@std@@XZ) déjà défini(e) dans pokemon.obj
-terre.obj : error LNK2019: symbole externe non résolu "public: __thiscall CRock::CRock(void)" (??0CRock@@QAE@XZ) référencé dans la fonction "public: class std::vector<class CRock *,class std::allocator<class CRock *> > __thiscall CRock::statsMonster(void)" (?statsMonster@CRock@@QAE?AV?$vector@PAVCRock@@V?$allocator@PAVCRock@@@std@@@std@@XZ)
-C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\Debug\PokemonDL.exe : fatal error LNK1120: 1 externes non résolus
+C:\Users\dilha\Documents\ESIEA\POO\PokemonDL\Debug\PokemonDL.exe : fatal error LNK1169: un ou plusieurs symboles définis à différentes reprises ont été rencontrés

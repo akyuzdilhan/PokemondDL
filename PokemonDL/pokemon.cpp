@@ -16,8 +16,6 @@
 #include "plante.h"
 #include "terre.h"
 
-//erreur de fichier de merde
-
 using namespace std;
 
 vector<CPokemon *> CPokemon::statsMonster() {

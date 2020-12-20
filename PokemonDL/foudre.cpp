@@ -1,4 +1,3 @@
-#include "pokemon.h"
 #include "foudre.h"
 #include <iostream>
 #include <time.h>

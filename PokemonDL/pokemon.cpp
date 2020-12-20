@@ -16,13 +16,11 @@
 #include "plante.h"
 #include "terre.h"
 
+//erreur de fichier de merde
+
 using namespace std;
 
-<<<<<<< HEAD
 vector<CPokemon *> CPokemon::statsMonster() {
-=======
-vector<CPokemon*> CPokemon::statsMonster(){
->>>>>>> cf99808476d4348dcf0f0a0b110a4015f5b22fa1
     ifstream infile("monsters.pkmn");
     string namePokemon, typePokemon, name, type, ligne;
     float specialiteFichier, specialite, specialiteFichier2, specialite2;
@@ -87,7 +85,7 @@ vector<CPokemon*> CPokemon::statsMonster(){
             pokemon->setFall(specialite2);
         }
         else if (typePokemon == "Rock") {
-            pokemon = new CRock();          //erreur corrigée (constructeur manquant)
+            pokemon = new CRock();
             pokemon->setHide(specialite);
         }
         else if (typePokemon == "Fire") {
@@ -116,10 +114,6 @@ vector<CPokemon*> CPokemon::statsMonster(){
     }
     
     return vectorPokemons;
-}
-
-CPokemon::CPokemon() {
-
 }
 
 CPokemon::CPokemon(string p_nom, string p_type, int p_attaque, int p_vie, int p_defense, int p_vitesse) {

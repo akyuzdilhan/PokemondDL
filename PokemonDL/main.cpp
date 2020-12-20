@@ -5,8 +5,6 @@
 #include "pokemon.h"
 #include "dresseur.h"
 #include "foudre.h"
-/*#define FILE_MONSTERS "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemonDL\\Donnees\\monsters.pkmn"
-#define FILE_ATTACK "D:\\Utilisateurs\\Léo\\Documents\\Léo\\Ecole\\Apprentissage\\ESIEA\\POO\\Projet\\PokemondDL\\PokemonDL\\Donnees\\attacks.pkmn"*/
 
 using namespace std;
 

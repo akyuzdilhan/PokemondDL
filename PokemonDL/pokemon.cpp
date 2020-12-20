@@ -4,9 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <regex>
-#include <string>
 #include <sstream>
-#include <vector>
 
 #include "pokemon.h"
 #include "foudre.h"
@@ -104,8 +102,8 @@ vector<CPokemon *> CPokemon::statsMonster() {
             
             pokemon->setNom(namePokemon);   // créer les getter et le setter et faire un pokmon.setName(name); pokemon.setHP(hp);
             pokemon->setType(typePokemon);
-            pokemon->setVie(speed);
-            pokemon->setVitesse(hp);
+            pokemon->setVie(hp);
+            pokemon->setVitesse(speed);
             pokemon->setAttaque(attack);
             pokemon->setDefense(defense);
                 // faire l'instanciation pour les classes filles
@@ -116,12 +114,63 @@ vector<CPokemon *> CPokemon::statsMonster() {
     }
     return vectorPokemons;
 }
-/*
-vector<CPokemon*> CPokemon::statsMonster() {
 
+vector<CPokemon*> CPokemon::attacksMonster() {
+    ifstream infile("attacks.pkmn");
+    string nameAttaque, typeAttaque, name, type, ligne;
+    float fail = 0.00, failFichier = 0.00;
+    int power = 0, nbUse = 0, powerFichier = 0, nbUseFichier;
+    vector<CPokemon*> vectorAttaques;  // le pointeur permet de caster le pokemon dans les classes filles
 
+    string line;
+    while (std::getline(infile, line))
+    {
+        while (std::getline(infile, line) && line != "EndAttack")
+        {
+            std::istringstream iss(line);
+            if (iss >> ligne) {
+                if (ligne == "Name") {
+                    if (iss >> name) {
+                        nameAttaque = name;
+                    }
+                }
+                if (ligne == "Type") {
+                    if (iss >> type) {
+                        typeAttaque = type;
+                    }
+                }
+                if (ligne == "Power") {
+                    if (iss >> powerFichier) {
+                        power = powerFichier;
+                    }
+                }
+                if (ligne == "NbUse") {
+                    if (iss >> nbUseFichier) {
+                        nbUse = nbUseFichier;
+                    }
+                }
+                if (ligne == "Fail") {
+                    if (iss >> failFichier) {
+                        fail = failFichier;
+                    }
+                }
+            }
+            CPokemon* attaque = new CPokemon();
+
+            attaque->setNom(nameAttaque);
+            attaque->setType(typeAttaque);
+            attaque->setPower(power);
+            attaque->setNbUse(nbUse);
+            attaque->setFail(fail);
+            // faire l'instanciation pour les classes filles
+            // faire une classe qui lit les fichiers, readfile.cpp
+            vectorAttaques.push_back(attaque);
+        }
+        cout << "nom attaque : " << nameAttaque << " type attaque : " << typeAttaque << " Power : " << power << " NbUse : " << nbUse << " Fail : " << fail << endl;
+    }
+    return vectorAttaques;
 }
-*/
+
 
 CPokemon::CPokemon(string p_nom, string p_type, int p_attaque, int p_vie, int p_defense, int p_vitesse) {
     m_nom = p_nom;
@@ -181,6 +230,18 @@ int CPokemon::getDefense()
 {
     return m_defense;
 }
+int CPokemon::getPower()
+{
+    return m_power;
+}
+int CPokemon::getNbUse()
+{
+    return m_nbUse;
+}
+float CPokemon::getFail()
+{
+    return m_fail;
+}
 
 void CPokemon::setNom(std::string nom) {
     m_nom = nom;
@@ -199,4 +260,13 @@ void CPokemon::setAttaque(int attaque) {
 }
 void CPokemon::setDefense(int defense) {
     m_defense = defense;
+}
+void CPokemon::setPower(int power) {
+    m_power = power;
+}
+void CPokemon::setNbUse(int nbUse) {
+    m_nbUse = nbUse;
+}
+void CPokemon::setFail(float fail) {
+    m_fail = fail;
 }

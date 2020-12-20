@@ -1,0 +1,24 @@
+﻿  eau.cpp
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\eau.cpp(15,12): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\eau.cpp(19,12): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\eau.cpp(23,15): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\eau.cpp(26,14): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  feu.cpp
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\feu.cpp(11,12): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\feu.cpp(15,14): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  foudre.cpp
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\foudre.cpp(12,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\foudre.cpp(25,12): warning C4244: 'return' : conversion de 'int' en 'float', perte possible de données
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\foudre.cpp(29,19): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  herbe.cpp
+  insecte.cpp
+  main.cpp
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\main.cpp(17,19): error C2248: 'CPokemon::CPokemon' : impossible d'accéder à protected membre déclaré(e) dans la classe 'CPokemon'
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\pokemon.h(23): message : voir la déclaration de 'CPokemon::CPokemon'
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\pokemon.h(6): message : voir la déclaration de 'CPokemon'
+  plante.cpp
+  pokemon.cpp
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\pokemon.cpp(138,49): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  terre.cpp
+D:\Utilisateurs\Léo\Documents\Léo\Ecole\Apprentissage\ESIEA\POO\Projet\PokemondDL\PokemonDL\terre.cpp(15,14): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  Génération de code en cours...

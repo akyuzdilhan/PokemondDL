@@ -4,13 +4,14 @@
 class CRock : public CPokemon
 {
 private:
-	int m_hide;
+	float m_hide;
 
 public:
-	// CRock();
+	CRock();
+	std::vector<CRock*> statsMonster();
 	bool hide();
 
-	int getHide();
+	float getHide();
 
 	void setHide(float m_hide);
 };

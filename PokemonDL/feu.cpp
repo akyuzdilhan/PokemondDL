@@ -6,7 +6,7 @@ bool CFire::burn() {
 	return m_burn > 0;
 }
 
-int CFire::getBurn()
+float CFire::getBurn()
 {
     return m_burn;
 }

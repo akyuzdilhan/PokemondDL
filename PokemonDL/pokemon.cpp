@@ -6,6 +6,7 @@
 #include <regex>
 #include <string>
 #include <sstream>
+#include <vector>
 
 #include "pokemon.h"
 #include "foudre.h"
@@ -19,7 +20,7 @@
 
 using namespace std;
 
-vector<CPokemon*> CPokemon::statsMonster() {
+vector<CPokemon *> CPokemon::statsMonster() {
     ifstream infile("monsters.pkmn");
     string namePokemon, typePokemon, name, type, ligne;
     float specialiteFichier, specialite, specialiteFichier2, specialite2;
@@ -73,6 +74,7 @@ vector<CPokemon*> CPokemon::statsMonster() {
             }
         }
         CPokemon* pokemon = new CPokemon();
+        /*
         if (typePokemon == "Electric") {
             pokemon = new CElectric();
             pokemon->setParalysis(specialite);
@@ -98,6 +100,7 @@ vector<CPokemon*> CPokemon::statsMonster() {
             pokemon = new CInsect();
             pokemon->setDegatPoison(specialite);
         }
+        */
         pokemon->setNom(namePokemon);   // créer les getter et le setter et faire un pokmon.setName(name); pokemon.setHP(hp);
         pokemon->setType(typePokemon);
         pokemon->setVie(speed);
@@ -107,7 +110,9 @@ vector<CPokemon*> CPokemon::statsMonster() {
             // faire l'instanciation pour les classes filles
             // faire une classe qui lit les fichiers, readfile.cpp
         vectorPokemons.push_back(pokemon);
+        // cout << "nom : " + namePokemon + " type : " + typePokemon + " vie : " + hp + " vitesse : " + speed + " attanque : " + attack + " defense : " + defense << endl;
     }
+    
     return vectorPokemons;
 }
 
@@ -118,6 +123,10 @@ CPokemon::CPokemon(string p_nom, string p_type, int p_attaque, int p_vie, int p_
     m_vie = p_vie;
     m_defense = p_defense;
     m_vitesse = p_vitesse;
+}
+
+CPokemon::CPokemon() {
+
 }
 
 CPokemon::~CPokemon() {
@@ -141,27 +150,27 @@ bool CPokemon::estVivant() {
 	return m_vie > 0;
 }
 
-string CPokemon::GetNom()
+string CPokemon::getNom()
 {
     return m_nom;
 }
-string CPokemon::GetType()
+string CPokemon::getType()
 {
     return m_type;
 }
-int CPokemon::GetVie()
+int CPokemon::getVie()
 {
     return m_vie;
 }
-int CPokemon::GetVitesse()
+int CPokemon::getVitesse()
 {
     return m_vitesse;
 }
-int CPokemon::GetAttaque()
+int CPokemon::getAttaque()
 {
     return m_attaque;
 }
-int CPokemon::GetDefense()
+int CPokemon::getDefense()
 {
     return m_defense;
 }

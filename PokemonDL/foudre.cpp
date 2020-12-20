@@ -5,6 +5,7 @@
 using namespace std;
 
 CElectric::CElectric() {
+
 }
 
 bool CElectric::paralyze() {
@@ -19,7 +20,7 @@ bool CElectric::paralyze() {
 	return m_paralysis > 0;
 }
 
-int CElectric::getParalysis()
+float CElectric::getParalysis()
 {
     return m_paralysis;
 }

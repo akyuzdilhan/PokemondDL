@@ -1,6 +1,6 @@
 #pragma once
-#define POKEMON_H
 #include <string>
+#include <vector>
 
 class CPokemon
 {
@@ -16,42 +16,46 @@ private:
     int m_degat;
     float m_coeff;
 
-    CPokemon();
+    //CPokemon();
 
 public:
 
     virtual ~CPokemon(); // vérifier si il faut bien mettre virtual
+    CPokemon();
     CPokemon(std::string p_nom, std::string p_type, int p_attaque, int p_vie,  int p_defense, int p_vitesse);
     void recevoirDegats(int nbDegats);
     void attaquer(CPokemon& cible);
-    std::vector<CPokemon*> statsMonster();
+    std::vector<CPokemon *> statsMonster();
     bool estVivant();
 
-    std::string GetNom();
-    std::string GetType();
-    int GetVie();
-    int GetVitesse();
-    int GetAttaque();
-    int GetDefense();
-    virtual int getParalysis();
-    virtual int getHide();
-    virtual int getBurn(); //vérifier si c'est bien des int
-    virtual int getDegatPoison(); 
-    virtual float getGuerrir();
-    virtual float getFlood();
-    virtual float getFall();
-
+    std::string getNom();
+    std::string getType();
+    int getVie();
+    int getVitesse();
+    int getAttaque();
+    int getDefense();
+    /*
+    virtual float getParalysis() = 0;
+    virtual float getHide() = 0;
+    virtual float getBurn() = 0; //vérifier si c'est bien des int
+    virtual float getDegatPoison() = 0;
+    virtual float getGuerrir() = 0;
+    virtual float getFlood() = 0;
+    virtual float getFall() = 0;
+    */
     void setNom(std::string nom);
     void setType(std::string type);
     void setVie(int vie);
     void setVitesse(int vitesse);
     void setAttaque(int attaque);
     void setDefense(int defense);
-    virtual void setParalysis(float paralysis);
-    virtual void setHide(float hide);
-    virtual void setBurn(float burn);
-    virtual void setDegatPoison(float degatPoison);
-    virtual void setGuerrir(float guerrir);
-    virtual void setFlood(float flood);
-    virtual void setFall(float fall);
+    /*
+    virtual void setParalysis(float paralysis) = 0;
+    virtual void setHide(float hide) = 0;
+    virtual void setBurn(float burn) = 0;
+    virtual void setDegatPoison(float degatPoison) = 0;
+    virtual void setGuerrir(float guerrir) = 0;
+    virtual void setFlood(float flood) = 0;
+    virtual void setFall(float fall) = 0;
+    */
 };

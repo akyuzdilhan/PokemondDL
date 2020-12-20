@@ -4,7 +4,7 @@
 class CElectric : public CPokemon
 {
 private:
-	int m_paralysis;
+	float m_paralysis;
 
 
 public:
@@ -12,7 +12,7 @@ public:
 	CElectric();
 	bool paralyze();
 
-	int getParalysis();
+	float getParalysis();
 
 	void setParalysis(float paralysis);
 

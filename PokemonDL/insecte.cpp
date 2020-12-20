@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int CInsect::getDegatPoison()
+float CInsect::getDegatPoison()
 {
     return m_degatPoison;
 }

@@ -2,6 +2,10 @@
 
 using namespace std;
 
+CGrass::CGrass() {
+
+}
+
 bool CGrass::recoveryHide(int m_vie)
 {
 	m_vie *= m_winHide;

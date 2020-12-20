@@ -2,6 +2,10 @@
 
 using namespace std;
 
+CFire::CFire() {
+
+}
+
 bool CFire::burn() {
 	return m_burn > 0;
 }
